@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sachin9272/Chat-App/static/css/main.41f9e4ec.css",
+    "main.js": "/sachin9272/Chat-App/static/js/main.edc75e83.js",
+    "index.html": "/sachin9272/Chat-App/index.html",
+    "main.41f9e4ec.css.map": "/sachin9272/Chat-App/static/css/main.41f9e4ec.css.map",
+    "main.edc75e83.js.map": "/sachin9272/Chat-App/static/js/main.edc75e83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41f9e4ec.css",
+    "static/js/main.edc75e83.js"
+  ]
+}
