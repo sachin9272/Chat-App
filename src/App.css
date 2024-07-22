@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: cursive;
+    background-image: radial-gradient(#104069,#000000e4);
+}
+.name{
+    color: black;
+    font-size: 21px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.room{
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+}
+.room label{
+    color: #fff;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+}
+.room input{
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 30px;
+    font-size: 20px;
+    /* border: 2px solid black; */
+}
+.room button, .sign-out button{
+    width: 50%;
+    padding: 10px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sign-out{
+    margin-top: 10px;
+}
+.sign-out button{
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    background-color: rgba(255, 8, 0, 0.586);
+    padding: 3px 0px;
+    border: none;
+}
+.note{
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+@media screen and (max-width:525px) {
+    .sign-out button{
+        padding: 2px !important;
+    }
+}

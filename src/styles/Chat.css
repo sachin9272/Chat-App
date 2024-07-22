@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     border-radius: 5px;
     overflow: hidden;
@@ -14,6 +14,9 @@
     color: #fff;
     width: 100%;
     text-align: center;
+}
+.header h1{
+    font-size: 20px;
 }
 .messages{
     display: flex;
@@ -29,11 +32,13 @@
     display: flex;
     align-items: flex-start;
     margin-bottom: 10px;
+    padding: 0px 5px;
 }
 .user{
     font-weight: bold;
     margin-right: 10px;
-    color: #333;
+    color: #000000;
+    margin-left: 10px;
 }
 .new-message-form{
     display: flex;
@@ -44,11 +49,17 @@
     flex: 1;
     border: none;
     outline: none;
-    background: transparent;
+    background: #ffffff56;
     font-size: 16px;
-    color: #333;
-    padding: 10px;
+    color: #f7f7f7be;
+    padding: 10px; 
     border-radius: 5px 0 0 5px;
+    border-bottom: 3px solid #000000d6 ;
+    margin-left: 10px;
+
+}
+.new-message-input::placeholder{
+    color: #ffffff99;
 }
 .send-button{
     border: none;
@@ -57,4 +68,30 @@
     color: #fff;
     font-size: 16px;
     font-weight: bold;
+    margin-right: 5px;
+    border: 2px solid #ffffff97;
+    margin-left: 2px;
+    border-radius:5px;
+}
+
+@media screen and (max-width: 525px) {
+    .user{
+        font-size: 15px;
+    }
+    .message{
+        font-size: 14px;
+    }
+    .new-message-input{
+        padding: 0px;
+        height: 30px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .send-button{
+        padding: 5px;
+        height: 30px;
+        font-size: 14px !important;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
 }

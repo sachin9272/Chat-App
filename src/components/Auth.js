@@ -1,8 +1,10 @@
 import React from 'react';
 import {auth, provider} from "../firebase-config"
 import {signInWithPopup } from 'firebase/auth';
-
+import '../styles/Auth.css';
 import Cookies from 'universal-cookie';
+import logo from '../assets/images.png'
+
 const cookies = new Cookies();
 
 export const Auth = (props) => {
@@ -19,8 +21,12 @@ export const Auth = (props) => {
   
   return (
     <div className='auth'>
-        <p>Sign In with Google To Continue</p>
-        <button onClick={signInwithGoogle}>Sign In with Google</button>
+      <div className='wrapper'>
+        <img src={logo} alt="" />
+        <div>CHAT ROOM</div>
+        <p>Sign In with Google To Continue...</p>
+        <button className='button' onClick={signInwithGoogle}>Sign In </button>
+      </div>
     </div>
   )
 }

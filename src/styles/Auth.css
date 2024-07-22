@@ -1,0 +1,65 @@
+.auth{
+    /* background: linear-gradient(135deg, #4203a9, #90bafc); */
+    /* background: linear-gradient(#01c3fe71,#a21ef47b); */
+    background-image: radial-gradient(#104069,#000000e4);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #fff;
+    font-family: cursive;
+}
+.wrapper{
+    background-color: rgba(240, 248, 255, 0.3);
+    padding: 20px;
+    /* height: 390px; */
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    border: 5px solid #fff;
+}
+.wrapper p{
+    font-size: 25px;
+}
+.wrapper .button{
+    width: 50%;
+    padding: 20px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    background-color: #6102f9;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+.wrapper img{
+    height: 100px;
+    mix-blend-mode: multiply;
+    margin-top: 20px;
+}
+.auth .wrapper div{
+    color: black;
+    font-size: 21px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media  screen and (max-width:525px){
+    .wrapper{
+        width: 280px;
+        padding: 20px;
+        font-size: 35px !important; 
+    }
+    .wrapper button{
+        width: 70%;
+        font-size: 30px;
+        padding: 15px 10px;
+    }
+    .wrapper img{
+        margin-top: 10px;
+    }
+}

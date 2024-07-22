@@ -5,7 +5,7 @@ import { auth, db } from '../firebase-config';
 import '../styles/Chat.css'
 
 export const Chat = (props) => {
-    const {room} = props
+    const {room} = props 
     const [newMessage, setNewMessage] = useState("");
     const [messages, setMessages] = useState([]);
 
@@ -45,7 +45,7 @@ export const Chat = (props) => {
         <div className='messages'>
             {messages.map((message) => (
                 <div className="message" key={message.id}>
-                    <span className='user'>{message.user}</span>
+                    <span className='user'>{message.user}:</span>
                     {message.text}
                 </div>
             ))}
